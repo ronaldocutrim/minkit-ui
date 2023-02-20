@@ -1,0 +1,12 @@
+{
+  "name": "minimal-design-system",
+  "version": "1.0.0",
+  "description": "",
+
+  "scripts": {
+    "react-doc": "pnpm --filter @min/react dev"
+  },
+  "keywords": [],
+  "author": "Ronaldo Cutrim",
+  "license": "ISC"
+}
