@@ -2,16 +2,21 @@
   <br>
   <img width="200" src="./assets/min.svg"/>
   <br>
- <h2> Minimal Design System</h2>
+  <strong>Minimal Design System</strong>
 </div>
 
-<h2 align="center">A simple Design System with basic colors and simple components</h2>
+---
 
-- Storybook
-- Monorepo
-- React
+**A simple Design System with basic colors and simple components**
 
-**The idea of ​​this project is to make a multi-platform distributed design system in the same code base.**
+- [x] Monorepo
+- [x] Storybook
+- [x] React
+- [ ] React-Native
+- [ ] Others Libraries
+
+The idea of ​​this project is to make a multi-platform distributed design system in the same code base, reusing style definitions of standard code components and design tokens
+
 
 
 
