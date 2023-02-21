@@ -69,6 +69,14 @@ importers:
       typescript: 4.9.5
       vite: 4.1.2
 
+  packages/styles:
+    specifiers:
+      '@min/colors': workspace:^1.0.0
+      '@min/web': workspace:^1.0.0
+    dependencies:
+      '@min/colors': link:../colors
+      '@min/web': link:../web
+
 packages:
 
   /@ampproject/remapping/2.2.0:
