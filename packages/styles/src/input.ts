@@ -2,6 +2,7 @@ import { light } from '@min/colors'
 import { fontSizes, fontWeight } from '@min/web'
 
 export const input = {
+  width: '100%',
   backgroundColor: '#fff',
   borderColor: light.primary.main,
   borderWidth: '1px',

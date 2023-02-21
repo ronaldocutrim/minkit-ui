@@ -10,7 +10,7 @@
   "author": "Ronaldo Cutrim",
   "license": "ISC",
   "dependencies": {
-    "@min/colors": "workspace:^1.0.0",
-    "@min/web": "workspace:^1.0.0"
+    "@min/colors": "workspace:*",
+    "@min/web": "workspace:*"
   }
 }
