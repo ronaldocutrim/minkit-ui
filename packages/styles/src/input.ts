@@ -1,7 +1,7 @@
 import { light } from '@min/colors'
 import { fontSizes, fontWeight } from '@min/web'
 
-export const button = {
+export const input = {
   backgroundColor: '#fff',
   borderColor: light.primary.main,
   borderWidth: '1px',
@@ -10,5 +10,9 @@ export const button = {
   paddingLeft: '16px',
   paddingRight: '16px',
   fontSize: fontSizes.sm,
-  fontWeight: fontWeight.regular
+  fontWeight: fontWeight.regular,
+  borderRadius:  '2px',
+  ':hover': {
+    borderColor: 'red'
+  }
 }
