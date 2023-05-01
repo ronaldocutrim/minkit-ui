@@ -1,6 +1,6 @@
 {
-  "name": "min-design-system-react",
-  "version": "1.0.1",
+  "name": "rcf-min-design-system",
+  "version": "1.0.0",
   "description": "React Desing System",
   "type": "commonjs",
   "files": [
