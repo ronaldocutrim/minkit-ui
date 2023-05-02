@@ -1,6 +1,6 @@
 {
-  "name": "rcf-min-design-system",
-  "version": "1.0.0",
+  "name": "@min/react",
+  "version": "0.0.1",
   "description": "React Desing System",
   "type": "commonjs",
   "files": [
@@ -8,8 +8,7 @@
     "README.md"
   ],
   "scripts": {
-    "build": "tsup ./src/index.ts ",
-    "publish": "npm publish --access public"
+    "build": "tsup ./src/index.ts"
   },
   "keywords": [],
   "author": "Ronaldo Cutrim",
