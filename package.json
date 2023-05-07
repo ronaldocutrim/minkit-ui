@@ -1,12 +1,15 @@
 {
-  "name": "minimal-design-system",
+  "name": "minkit-ui",
   "version": "1.0.0",
   "description": "",
-
   "scripts": {
-    "react-doc": "pnpm --filter @min/react dev"
+    "react-doc": "pnpm --filter keeper-react dev",
+    "publish-packages": "changeset version && changeset publish"
   },
   "keywords": [],
   "author": "Ronaldo Cutrim",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@changesets/cli": "^2.26.1"
+  }
 }

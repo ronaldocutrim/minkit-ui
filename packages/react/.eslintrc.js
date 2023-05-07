@@ -1,3 +1,3 @@
 module.exports = {
-  ...require('@min/config/eslint/react'),
+  ...require('@minkit/config/eslint/react'),
 };

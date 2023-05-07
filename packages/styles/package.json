@@ -1,6 +1,7 @@
 {
-  "name": "@min/styles",
+  "name": "@minkit/styles",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "index.ts",
   "scripts": {
@@ -10,7 +11,7 @@
   "author": "Ronaldo Cutrim",
   "license": "ISC",
   "dependencies": {
-    "@min/colors": "workspace:*",
-    "@min/web": "workspace:*"
+    "keeper-colors": "workspace:*",
+    "@minkit/web": "workspace:*"
   }
 }

@@ -1,5 +1,5 @@
-import { light } from '@min/colors'
-import { fontSizes, fontWeight } from '@min/web'
+import { light } from 'keeper-colors'
+import { fontSizes, fontWeight } from '@minkit/web'
 
 export const input = {
   width: '100%',

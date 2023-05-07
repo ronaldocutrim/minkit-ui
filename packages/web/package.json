@@ -1,6 +1,7 @@
 {
-  "name": "@min/web",
+  "name": "@minkit/web",
   "version": "1.0.0",
+  "private": true,
   "description": "",
   "main": "src/index.ts",
   "scripts": {
