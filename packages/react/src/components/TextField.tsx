@@ -1,7 +1,7 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { input as InputStyles } from '@minkit/styles';
-import { ResponsiveProperty } from '@minkit/styles';
+import { input as InputStyles } from '@minkit-ui/styles';
+import { ResponsiveProperty } from '@minkit-ui/styles';
 
 export const Input = styled.input({ ...InputStyles });
 

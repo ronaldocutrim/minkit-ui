@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "react-doc": "pnpm --filter keeper-react dev",
-    "publish-packages": "changeset version && changeset publish"
+    "react-doc": "pnpm --filter @minkit-ui/react dev",
+    "release": "changeset version && changeset publish"
   },
   "keywords": [],
   "author": "Ronaldo Cutrim",

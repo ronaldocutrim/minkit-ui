@@ -34,29 +34,29 @@ importers:
       '@types/react': ^18.0.28
       '@types/styled-components': ^5.1.26
       eslint: ^8.34.0
-      @minkit/config: workspace:^1.0.0
-      @minkit/styles: workspace:^1.0.0
+      @minkit-ui/config: workspace:^1.0.0
+      @minkit-ui/styles: workspace:^1.0.0
       styled-components: ^5.3.6
       tsup: ^6.7.0
       typescript: ^4.9.5
     dependencies:
       '@types/react': 18.0.28
-      @minkit/styles: link:../styles
+      @minkit-ui/styles: link:../styles
       styled-components: 5.3.6
     devDependencies:
       '@types/styled-components': 5.1.26
       eslint: 8.34.0
-      @minkit/config: link:../../config
+      @minkit-ui/config: link:../../config
       tsup: 6.7.0_typescript@4.9.5
       typescript: 4.9.5
 
   packages/styles:
     specifiers:
       keeper-colors: workspace:*
-      @minkit/web: workspace:*
+      @minkit-ui/web: workspace:*
     dependencies:
       keeper-colors: link:../colors
-      @minkit/web: link:../web
+      @minkit-ui/web: link:../web
 
   packages/web:
     specifiers: {}

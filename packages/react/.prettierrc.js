@@ -1,3 +1,3 @@
 module.exports = {
-  ...require('@minkit/config/prettier')
+  ...require('@minkit-ui/config/prettier')
 }

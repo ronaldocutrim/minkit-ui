@@ -1,5 +1,5 @@
 import { light } from 'keeper-colors'
-import { fontSizes, fontWeight } from '@minkit/web'
+import { fontSizes, fontWeight } from '@minkit-ui/web'
 
 export const input = {
   width: '100%',
