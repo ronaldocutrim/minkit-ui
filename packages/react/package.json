@@ -2,6 +2,16 @@
   "name": "@minkit-ui/react",
   "version": "1.0.3",
   "description": "React Desing System",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronaldocutrim/minkit-ui"
+  },
+  "keywords": [
+    "React",
+    "Styled components"
+  ],
+  "author": "Ronaldo Cutrim",
+  "license": "MIT",
   "type": "commonjs",
   "files": [
     "dist/**",
@@ -13,9 +23,6 @@
   "scripts": {
     "build": "tsup src/index.ts --format esm, cjs --dts"
   },
-  "keywords": [],
-  "author": "Ronaldo Cutrim",
-  "license": "ISC",
   "devDependencies": {
     "@minkit-ui/config": "workspace:^1.0.0",
     "@types/styled-components": "^5.1.26",
